@@ -33,7 +33,7 @@
     price.textContent = yearly ? '$9.60' : '$12';
     if (!reduced && price.animate) price.animate([{ opacity: .3, transform: 'translateY(8px)' }, { opacity: 1, transform: 'translateY(0)' }], { duration: 280, easing: 'ease-out' });
     document.querySelector('#price-period').textContent = ' / month';
-    document.querySelector('#price-note').textContent = yearly ? 'Billed $115.20 yearly. Bottle pricing announced at launch.' : 'Billed monthly. Bottle pricing announced at launch.';
+    document.querySelector('#price-note').textContent = yearly ? 'Billed $115.20 yearly. Bottle sold separately; its price will be confirmed before orders open.' : 'Billed monthly. Bottle sold separately; its price will be confirmed before orders open.';
   }));
 
   const countdown = document.querySelector('[data-launch]');

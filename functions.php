@@ -26,8 +26,8 @@ add_action('after_switch_theme', function () {
 });
 
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('aera-style', get_stylesheet_uri(), [], '1.0.7');
-    wp_enqueue_script('aera-site', get_theme_file_uri('/assets/site.js'), [], '1.0.7', true);
+    wp_enqueue_style('aera-style', get_stylesheet_uri(), [], '1.0.8');
+    wp_enqueue_script('aera-site', get_theme_file_uri('/assets/site.js'), [], '1.0.8', true);
 });
 
 add_theme_support('title-tag');

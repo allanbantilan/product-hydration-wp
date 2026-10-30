@@ -1,6 +1,32 @@
 # Hydration Product Launch | Elementor Landing Page
 
-A product launch page for a smart hydration bottle, built as a portfolio project. The page sections live in Elementor. The companion theme supplies the design, motion, light/dark mode, pricing toggle, countdown, referral waitlist, and optional Mailchimp syncing. Elementor is required.
+A prelaunch website for a smart hydration bottle. The page explains the product, presents an optional companion plan, and collects early access signups with referral links. Elementor manages the page content; the companion theme supplies the design and interactions.
+
+## Tech stack
+
+| Layer | Technology | Purpose |
+| --- | --- | --- |
+| CMS and runtime | WordPress, PHP 8.3, Apache | Content, routing, forms, and admin tools |
+| Page builder | Elementor Free | Editable landing page sections and hero widgets |
+| Front end | Custom theme, CSS, vanilla JavaScript, SVG | Responsive design, motion, pricing toggle, and countdown |
+| Data | MariaDB 11.4 | Waitlist signups, referral codes, and ranking |
+| Email | Mailchimp Marketing API, WordPress scheduled events | Optional double opt-in sync and retry |
+| Local development | Docker Compose, WP CLI, Python 3 | Repeatable setup and theme packaging |
+| QA | Playwright, Chrome DevTools MCP, Lighthouse | Browser flows, responsive checks, and performance audit |
+
+## Offer shown on the page
+
+Joining the waitlist is free and takes no payment. The displayed $12 monthly or $115.20 yearly price applies to the optional companion plan. The bottle is sold separately; its price is confirmed before orders open.
+
+## Screenshots
+
+| Desktop | Mobile |
+| --- | --- |
+| <img src="screenshots/desktop.png" alt="Hydration launch page on desktop" width="720"> | <img src="screenshots/mobile.png" alt="Hydration launch page on mobile" width="260"> |
+
+<img src="screenshots/dark.png" alt="Hydration launch page in dark mode" width="720">
+
+[View the mobile Lighthouse report](screenshots/lighthouse-mobile.report.html).
 
 ## Install
 
@@ -30,7 +56,7 @@ Run `py -3 tests/audit_lighthouse.py` for a local mobile Lighthouse report in `s
 
    A new address is sent as **pending**, so Mailchimp manages confirmation. WordPress keeps the local signup even if its API is unavailable. Check **Launch Waitlist** in the admin menu to see sync status and retry failed syncs.
 
-5. Change the launch date in `template-parts/landing-waitlist.php` (`data-launch`) and Elementor's FAQ section, and the sample offer before using this for a real campaign. Update the site privacy notice for email and referral data retention.
+5. Set the confirmed launch date in `template-parts/landing-waitlist.php` (`data-launch`) and Elementor's FAQ section. Confirm the offer and update the privacy notice for email and referral data retention before accepting public signups.
 
 After editing theme files, run `py -3 package_theme.py` to rebuild the installable ZIP. The Docker site already uses the current source files, so it needs only a refresh. Elementor editor changes live in the database and are not included in the theme ZIP; export the page from Elementor after editing if you need to move those changes to another site.
 
@@ -42,7 +68,7 @@ After editing theme files, run `py -3 package_theme.py` to rebuild the installab
 4. **How it works:** fill, notice, feel.
 5. **Comparison:** the smart bottle against a standard bottle.
 6. **Early access:** current signup status and product benefit cards.
-7. **Pricing:** monthly/yearly estimate and toggle.
+7. **Pricing:** optional companion plan with monthly/yearly toggle and separate bottle pricing.
 8. **FAQ:** native disclosure controls.
 9. **Final CTA:** launch countdown and signup/share state.
 10. **Footer:** section links and product brand.
@@ -51,7 +77,7 @@ After editing theme files, run `py -3 package_theme.py` to rebuild the installab
 
 Each new signup receives a random share code. A distinct new email submitted with `?ref=CODE` credits one referral to that code. The member page shows the referral count and position, sorted by referral count descending, then signup order. Repeated signup with the same email does not create a new credit. The admin page shows the latest 100 signups. The local build rate limits signups per IP for one minute; production campaigns may need a stronger abuse check and email verification before rewarding referrals.
 
-## Case study
+## Design approach
 
 **Problem:** hydration is easy to forget, while many wellness products add another distracting notification.
 
@@ -59,7 +85,7 @@ Each new signup receives a random share code. A distinct new email submitted wit
 
 **Build:** an Elementor page, a companion WordPress theme, hand-drawn SVG product art, CSS and native browser interactions, a WordPress waitlist table, and Mailchimp API syncing.
 
-**Result to measure:** signup conversion, successful email confirmation, referral rate, and mobile performance once deployed. The page has no live campaign data yet.
+**Launch metrics:** signup conversion, successful email confirmation, referral rate, and mobile performance. The local environment has no production subscriber data.
 
 ## Checks
 

@@ -25,6 +25,10 @@ with sync_playwright() as playwright:
     desktop.screenshot(path=str(shots / "dark.png"), full_page=True)
     desktop.get_by_role("button", name="Yearly · save 20%").click()
     assert desktop.locator("#price-value").inner_text() == "$9.60"
+    assert "Billed $115.20 yearly. Bottle sold separately" in desktop.locator("#price-note").inner_text()
+    desktop.get_by_text("Is the bottle included in the plan?").click()
+    assert "bottle is sold separately" in desktop.locator(".faq-list details[open]").inner_text()
+    desktop.get_by_text("Is the bottle included in the plan?").click()
     desktop.get_by_text("When does early access open?").click()
     assert desktop.locator(".faq-list details[open]").count() == 1
 
