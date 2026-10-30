@@ -1,0 +1,380 @@
+[
+  {
+    "id": "f5af4f02",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "css_classes": "hero",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "e657f49b",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "css_classes": "container hero-grid",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "1cc5dfc9",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "css_classes": "hero-copy",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [
+              {
+                "id": "bc1bd115",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Hydration, reimagined",
+                  "header_size": "h6",
+                  "html_tag": "span",
+                  "_css_classes": "eyebrow"
+                },
+                "elements": []
+              },
+              {
+                "id": "875e1e7a",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Feel good.<br><em>Flow better.</em>",
+                  "header_size": "h1",
+                  "html_tag": "h1"
+                },
+                "elements": []
+              },
+              {
+                "id": "f1b1c10b",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>Meet the bottle that helps you build a better rhythm. It quietly keeps your water cold, your goals close, and your day moving.</p>"
+                },
+                "elements": []
+              },
+              {
+                "id": "d4ca2cfe",
+                "elType": "container",
+                "settings": {
+                  "content_width": "full",
+                  "css_classes": "hero-cta",
+                  "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                  }
+                },
+                "elements": [
+                  {
+                    "id": "28a71c57",
+                    "elType": "widget",
+                    "widgetType": "button",
+                    "settings": {
+                      "text": "Join the waitlist ↗",
+                      "link": {
+                        "url": "#waitlist"
+                      }
+                    },
+                    "elements": []
+                  },
+                  {
+                    "id": "9aab6c10",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                      "editor": "<p>Early access. No payment today.</p>",
+                      "_css_classes": "hero-note"
+                    },
+                    "elements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ff6679a8",
+            "elType": "widget",
+            "widgetType": "html",
+            "settings": {
+              "html": "<div class=\"hero-art\" aria-label=\"Smart bottle illustration\"><div class=\"hero-halo\"></div><img class=\"product-svg\" src=\"/wp-content/themes/hydration-launch/assets/bottle.svg\" width=\"390\" height=\"690\" alt=\"Sage green smart water bottle\"><div class=\"orbit-label one\"><span aria-hidden=\"true\">✦</span> A little nudge, right on time</div><div class=\"orbit-label two\"><span aria-hidden=\"true\">↗</span> Made to move with you</div></div>"
+            },
+            "elements": []
+          }
+        ]
+      },
+      {
+        "id": "cb5f5dc2",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+          "html": "<div class=\"container hero-bottom\">Small rituals. Big difference.</div>"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "3368b880",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "35fcc4a6",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+          "html": "<div class=\"trust-strip\"><div class=\"container trust-inner\"><span>Made for everyday momentum</span><div class=\"press-marks\" aria-label=\"Product highlights\"><span>Gentle reminders</span><span>Lasting temperature</span><span>Easy daily carry</span></div></div></div>"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "c527b5d0",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "b4d6e6ff",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+          "html": "<section class=\"section\" id=\"story\"><div class=\"container story-grid\"><div class=\"story-card reveal\" aria-hidden=\"true\"><div class=\"story-glass\"></div></div><div class=\"story-copy reveal\"><span class=\"eyebrow\">The everyday reset</span><h2>Somewhere between busy and better.</h2><p>Most of us remember to drink water only when we're already running on empty. The bottle is designed to turn that small, forgettable task into a feel good habit.</p><div class=\"story-list\"><div><span class=\"tick\" aria-hidden=\"true\">✓</span> A gentle glow when it's time to sip</div><div><span class=\"tick\" aria-hidden=\"true\">✓</span> Your progress, without the pressure</div><div><span class=\"tick\" aria-hidden=\"true\">✓</span> Beautiful enough to bring everywhere</div></div></div></div></section>"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "a10bc2b3",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "db2bf6db",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+          "html": "<section class=\"section features\" id=\"features\"><div class=\"container\"><div class=\"section-head reveal\"><span class=\"eyebrow\">Thoughtful by design</span><h2>Everything you need.<br>Nothing in your way.</h2><p>Good habits should fit your life. Scroll to see how every detail works toward a simpler daily rhythm.</p></div><div class=\"feature-layout\"><div class=\"feature-visual\" data-feature=\"1\"><img class=\"product-svg\" src=\"/wp-content/themes/hydration-launch/assets/bottle.svg\" width=\"390\" height=\"690\" alt=\"Smart bottle with reminder ring\" loading=\"lazy\"><div class=\"feature-visual-label\"><span id=\"feature-label\">01 / Gentle reminders</span><span>HYDRATION / DAILY</span></div></div><div class=\"feature-steps\"><article class=\"feature-step is-active\" data-feature=\"1\" data-label=\"01 / Gentle reminders\"><span class=\"num\">01 / NOTICE</span><h3>Listen to the light.</h3><p>A soft illuminated ring gives you a quiet reminder to take a sip. No buzzing, no noisy notifications.</p></article><article class=\"feature-step\" data-feature=\"2\" data-label=\"02 / Lasting temperature\"><span class=\"num\">02 / ENJOY</span><h3>Your perfect temperature, for longer.</h3><p>Double wall insulation keeps your drink refreshingly cold or comfortingly warm through the whole day.</p></article><article class=\"feature-step\" data-feature=\"3\" data-label=\"03 / Everyday ease\"><span class=\"num\">03 / REPEAT</span><h3>Built for the long run.</h3><p>A durable, easy to clean form that makes reaching for water the easiest choice in the room.</p></article></div></div></div></section>"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "a4d458b0",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "d2f7fc31",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+          "html": "<section class=\"section\" id=\"how\"><div class=\"container\"><div class=\"section-head reveal\"><span class=\"eyebrow\">It starts simple</span><h2>A better day, one sip at a time.</h2><p>Three small steps. One habit that stays.</p></div><div class=\"how-grid\"><article class=\"how-card reveal\"><div class=\"how-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 32 32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\"><rect x=\"10\" y=\"5\" width=\"12\" height=\"23\" rx=\"4\"/><path d=\"M13 5V2h6v3M13 13h6\"/></svg></div><div><small>01 / FILL</small><h3>Start fresh</h3><p>Fill the bottle and take it wherever the day takes you.</p></div></article><article class=\"how-card reveal\"><div class=\"how-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 32 32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\"><path d=\"M16 3v4m0 18v4M3 16h4m18 0h4M7 7l3 3m12 12 3 3M25 7l-3 3M10 22l-3 3\"/><circle cx=\"16\" cy=\"16\" r=\"7\"/></svg></div><div><small>02 / NOTICE</small><h3>Follow the glow</h3><p>A gentle light helps you pause and take a refreshing sip.</p></div></article><article class=\"how-card reveal\"><div class=\"how-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 32 32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\"><path d=\"m5 18 7 7L27 8\"/><circle cx=\"16\" cy=\"16\" r=\"14\"/></svg></div><div><small>03 / FEEL</small><h3>Find your rhythm</h3><p>Let a tiny daily ritual become a lasting good habit.</p></div></article></div></div></section>"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "2b0bf16e",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "ca33051f",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+          "html": "<section class=\"section compare\" id=\"compare\"><div class=\"container\"><div class=\"section-head reveal\"><span class=\"eyebrow\">Why Hydration</span><h2>Ordinary water bottle?<br>Not quite.</h2></div><div class=\"reveal\"><table class=\"compare-table\"><thead><tr><th scope=\"col\">The details</th><th scope=\"col\">Smart bottle</th><th scope=\"col\">The usual bottle</th></tr></thead><tbody><tr><td>Hydration reminders</td><td class=\"yes\">Gentle light cue</td><td>None</td></tr><tr><td>Temperature</td><td class=\"yes\">Insulated all day</td><td>Varies</td></tr><tr><td>Daily carry</td><td class=\"yes\">Made for the everyday</td><td>Often an afterthought</td></tr><tr><td>Mindful routine</td><td class=\"yes\">Built into the design</td><td>Up to you</td></tr></tbody></table></div></div></section>"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "579428e9",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "d3887293",
+        "elType": "widget",
+        "widgetType": "shortcode",
+        "settings": {
+          "shortcode": "[aera_voices]"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "28c7e76e",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "455a5ad6",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+          "html": "<section class=\"section pricing\" id=\"pricing\"><div class=\"container\"><div class=\"pricing-top\"><div class=\"section-head reveal\"><span class=\"eyebrow\">Simple from the start</span><h2>Make room for<br>a better routine.</h2><p>One beautiful bottle. Optional app features when you want more.</p></div><div class=\"billing-toggle\" role=\"group\" aria-label=\"Billing period\"><button type=\"button\" data-billing=\"monthly\" aria-pressed=\"true\">Monthly</button><button type=\"button\" data-billing=\"yearly\" aria-pressed=\"false\">Yearly · save 20%</button></div></div><div class=\"price-card reveal\"><div><span class=\"eyebrow\">Early access estimate</span><h3>Bottle + companion</h3><p>The bottle and a simple companion experience for your goals and routines.</p></div><div class=\"price-details\"><div class=\"price\" aria-live=\"polite\"><span id=\"price-value\">$12</span><small id=\"price-period\"> / month</small></div><p id=\"price-note\">Billed monthly. Bottle pricing announced at launch.</p><a class=\"button\" href=\"#waitlist\">Get early access <span aria-hidden=\"true\">↗</span></a></div></div></div></section>"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "17f9f77e",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "fe0de7a2",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+          "html": "<section class=\"section\" id=\"faq\"><div class=\"container faq-grid\"><div class=\"section-head reveal\"><span class=\"eyebrow\">Good to know</span><h2>A few things you might ask.</h2><p>Still curious? Join the list for launch details.</p></div><div class=\"faq-list reveal\"><details><summary>When does early access open?</summary><p>We're aiming for March 15, 2027. Join the waitlist and we'll email you when early access opens.</p></details><details><summary>Does joining the waitlist cost anything?</summary><p>No. Joining is free and does not commit you to a purchase.</p></details><details><summary>How do referrals work?</summary><p>After signing up, you'll get a personal link. Each new friend who joins through it counts toward your referrals and moves you up the early access list.</p></details><details><summary>Will I need an app?</summary><p>No. The bottle's light reminders work on their own. The companion experience is optional.</p></details><details><summary>Can I change my mind?</summary><p>Yes. You can unsubscribe from launch emails at any time.</p></details></div></div></section>"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "ab808b75",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "c4b018ed",
+        "elType": "widget",
+        "widgetType": "shortcode",
+        "settings": {
+          "shortcode": "[aera_waitlist]"
+        },
+        "elements": []
+      }
+    ]
+  }
+]
