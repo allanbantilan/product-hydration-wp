@@ -2,6 +2,15 @@
 
 A prelaunch website for a smart hydration bottle. The page explains the product, presents an optional companion plan, and collects early access signups with referral links. Elementor manages the page content; the companion theme supplies the design and interactions.
 
+## App flow
+
+1. A visitor reads the bottle features and optional companion-plan pricing, then joins the early-access waitlist without paying.
+2. WordPress stores the signup and creates a share code. A later signup through that referral link credits the original member once.
+3. The member page shows referral count and rank; the WordPress administrator can review recent signups and retry optional Mailchimp syncs.
+4. Mailchimp is optional and is not configured on the live site. The local WordPress waitlist remains the source of signup data.
+
+The live site is [product-hydration.duckdns.org](https://product-hydration.duckdns.org/). Its VPS deployment is part of the shared [deployment setup](https://github.com/allanbantilan/clinic-wp/tree/main/deployment).
+
 ## Tech stack
 
 | Layer | Technology | Purpose |
